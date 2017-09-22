@@ -10,4 +10,4 @@ EXPOSE 5757
 
 WORKDIR /data/release/weapp
 
-ENTRYPOINT npm run dev
+CMD npm run local-dev
